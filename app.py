@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title("Hello World")
-st.write("This is a simple web app")
-st.write("Please click on the sidebar to navigate to other pages")
+col1, col2 = st.columns(2)
+col1.write("This is column 1")
+col2.write("This is column 2")
