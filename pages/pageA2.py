@@ -1,7 +1,6 @@
 import streamlit as st
 
-st.title("Asignación 2")
-st.subheader("Religiones Alrededor del Mundo: Templos y Construcciones")
+st.title("Asignación 2 - Religiones Alrededor del Mundo: Templos y Construcciones")
 
 #----
 st.write("")
@@ -39,7 +38,7 @@ with col2:
         st.image("./img/A2-3.jpg", caption="Bautismo")
         st.image("./img/A2-4.jpg", caption="Diezmo")
     with col4:
-        st.image("./img/A2-5.jpg", caption="Reuniones dominicales")
+        st.image("./img/A2-5.jpg", caption="Reuniones Dominicales")
         st.image("./img/A2-6.jpg", caption="Familia y la Genealogía")
 
 #----
@@ -81,4 +80,3 @@ st.image("./img/A2-14.png", caption="Diseño en Shapr3D")
 st.write("")
 st.write("### :blue[Visualización del Diseño]")
 st.markdown('<iframe src="https://collaborate.shapr3d.com/v/VplQJwVNwTdaQhnx9ZALZ" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
-

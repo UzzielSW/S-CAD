@@ -1,7 +1,6 @@
 import streamlit as st
 
-st.title("Asignación 3")
-st.subheader("Monedas y Escudos")
+st.title("Asignación 3 - Monedas y Escudos")
 
 #----
 st.write("")
@@ -75,7 +74,7 @@ with col1:
     st.markdown("- **Tamaño**: Aproximadamente 60-70 cm de alto (dimensiones parametrizables)")
 
 with col2:
-    st.markdown("![Escudo de Juana de Arco](https://www.worldhistory.org/img/r/p/1000x1200/8662.jpg.webp?v=1722621123)")
+    st.image("https://www.worldhistory.org/img/r/p/1000x1200/8662.jpg.webp?v=1722621123", width=200, caption="Escudo de Juana de Arco")
     
 #----
 st.write("")

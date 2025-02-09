@@ -1,10 +1,6 @@
 # streamlit run streamlit_app.py
 import streamlit as st
 
-# col1, col2 = st.columns(2)
-# col1.write("This is column 1")
-# col2.write("This is column 2")
-
 pagA1_page = st.Page(
     page = "pages/pageA1.py",
     title = "A1: Software de CAD",
@@ -22,6 +18,7 @@ pagA3_page = st.Page(
     page = "pages/pageA3.py",
     title = "A3: Monedas y Escudos",
     icon = "🛡️",
+    # forma de agregar icono de material design
     # icon = ":material/smart_toy:", #iconos de material design font.google.com/icons
 )
 
@@ -62,7 +59,7 @@ pagS_page = st.Page(
 )
 
 
-
+# Navegacion de paginas sin secciones
 # pg = st.navigation(pages=[pagA1_page, pagA2_page, pagA3_page, pagA4_page])
 
 pg = st.navigation(
@@ -73,6 +70,7 @@ pg = st.navigation(
     }
 )
 
-st.sidebar.text("Made with ❤️‍🔥🥷 by @Uzziel_sw")
-
+st.sidebar.text("Made with ❤️‍🔥🥷 by @UzzielSW")
+# TODO: FUSION
+# ! https://myup3745.autodesk360.com/g/projects/D20240908801373151/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uVDJtaGMtQnpSNzZMbERicUp2b0NSUQ/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOjBKVHFhSzJwU1oyU2xmdU1kUWhTY0E/overview
 pg.run()

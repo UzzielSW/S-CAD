@@ -19,6 +19,8 @@ st.write("")
 st.write("#### :blue[Ingenierias en las que se aplica CAD]")
 
 col1, col2 = st.columns(2)
+
+# ...organiza cada ingenieria para que siga el formato de la columna
 with col1:
     st.write("##### Ingeniería Mecánica")
     st.write("Diseño de piezas, máquinas, herramientas, sistemas de transmisión, y análisis de estrés y fatiga.")
@@ -43,7 +45,50 @@ with col1:
     st.write("##### Ingeniería de Materiales")
     st.write("Análisis de estructuras moleculares, diseño de nuevos materiales, y simulación de propiedades físicas.")
     st.write("")
-# .....5-8
+
+    st.write("##### Ingeniería Química")
+    st.write("Diseño de plantas de procesamiento, equipos de producción, y simulación de procesos químicos.")
+    st.write("")
+
+    st.write("##### Ingeniería de Telecomunicaciones")
+    st.write("Diseño de antenas, redes de comunicación, y sistemas de transmisión.")
+    st.write("")
+
+    st.write("##### Ingeniería Óptica")
+    st.write("Diseño de lentes, sistemas de iluminación, y dispositivos ópticos.")
+    st.write("")
+
+    st.write("##### Ingeniería Textil")
+    st.write("Diseño de patrones, simulación de tejidos, y creación de modelos de ropa.")
+    st.write("")
+
+    st.write("##### Ingeniería Nuclear")
+    st.write("Diseño de reactores, sistemas de contención, y modelado de procesos nucleares.")
+    st.write("")
+
+    st.write("##### Ingeniería de Alimentos")
+    st.write("Diseño de equipos de procesamiento, empaquetado, y modelado de procesos alimentarios.")
+    st.write("")
+
+    st.write("##### Ingeniería de Seguridad")
+    st.write("Diseño de sistemas de protección contra incendios, equipos de seguridad personal, y simulación de evacuaciones.")
+    st.write("")
+
+    st.write("##### Ingeniería Forense")
+    st.write("Reconstrucción de accidentes, análisis de fallos estructurales, y simulación de eventos.")
+    st.write("")
+
+    st.write("##### Ingeniería de Software")
+    st.write("Diseño de interfaces de usuario, modelado de arquitecturas de software.")
+    st.write("")
+
+    st.write("##### Ingeniería Hidráulica")
+    st.write("Diseño de presas, canales, sistemas de bombeo y turbinas hidráulicas.")
+    st.write("")
+
+    st.write("##### Ingeniería de Plásticos")
+    st.write("Diseño de moldes, simulación de inyección de plástico, y análisis de propiedades.")
+    st.write("")
 
 with col2:
     st.write("##### Ingeniería Eléctrica y Electrónica")
@@ -69,7 +114,54 @@ with col2:
     st.write("##### Geología y Mineríaz")
     st.write("Modelado de yacimientos, planificación de minas, y diseño de equipos de extracción.")
     st.write("")
-# .....5-8
+
+    st.write("##### Ingeniería Aeronáutica")
+    st.write("Diseño de turbinas, fuselajes, y sistemas de control de vuelo.")
+    st.write("")
+
+    st.write("##### Ingeniería Robótica")
+    st.write("Diseño de robots industriales, prótesis robóticas, y sistemas de automatización.")
+    st.write("")
+
+    st.write("##### Ingeniería Acústica")
+    st.write("Diseño de sistemas de sonido, aislamiento acústico, y modelado de propagación del sonido.")
+    st.write("")
+
+    st.write("##### Ingeniería de Energías Renovables")
+    st.write("Diseño de turbinas eólicas, paneles solares, y sistemas de energía limpia.")
+    st.write("")
+
+    st.write("##### Ingeniería Ambiental")
+    st.write("Diseño de sistemas de tratamiento de agua, control de emisiones, y gestión de residuos.")
+    st.write("")
+
+    st.write("##### Ingeniería Agrícola")
+    st.write("Diseño de maquinaria agrícola, sistemas de riego, y planificación de cultivos.")
+    st.write("")
+
+    st.write("##### Ingeniería de Packaging")
+    st.write("Diseño de embalajes, optimización de formas para transporte y almacenamiento.")
+    st.write("")
+
+    st.write("##### Ingeniería de Sistemas")
+    st.write("Modelado de sistemas complejos, análisis de interacciones entre componentes.")
+    st.write("")
+
+    st.write("##### Ingeniería Ferroviaria")
+    st.write("Diseño de trenes, vías férreas, y sistemas de señalización.")
+    st.write("")
+
+    st.write("##### Ingeniería Costera")
+    st.write("Diseño de estructuras de protección costera, modelado de erosión y sedimentación.")
+    st.write("")
+
+    st.write("##### Ingeniería de Climatización")
+    st.write("Diseño de sistemas HVAC, modelado de flujo de aire y transferencia de calor.")
+    st.write("")
+
+    st.write("##### Ingeniería de Iluminación")
+    st.write("Diseño de sistemas de iluminación, análisis de distribución lumínica.")
+    st.write("")
 
 #----
 st.write("")
@@ -193,7 +285,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
 st.table(df)
 
 #----
@@ -309,6 +400,6 @@ with col2:
 #----
 st.write("")
 st.write("#### :blue[Diseño de objeto con SmartArt y con software de CAD]")
-st.image("./img/A1-4.png", caption="Diseño Base", width=500)
-st.image("./img/A1-5.png", caption="Diseño realizado en MAYA", width=500)
-st.image("./img/A1-6.png", caption="Diseño realizado en MAYA", width=500)
+st.image("./img/A1-4.png", caption="Diseño Base realizado en Office", width=500)
+st.image("./img/A1-5.png", caption="Diseño realizado en MAYA (TOP)", width=500)
+st.image("./img/A1-6.png", caption="Diseño realizado en MAYA (HOME)", width=500)
