@@ -247,3 +247,11 @@ st.markdown('<iframe src="https://myup3745.autodesk360.com/shares/public/SH286dd
 st.write("")
 st.write("### :blue[Animación]")
 st.video("./img/AnimacionRAM.mp4")
+
+#----
+st.write("")
+st.write("#### :blue[Conclusión]")
+st.markdown("""Durante el proceso pude aprender los siguientes puntos:
+- Estudio de movimiento (realizar la animación)
+- Análisis de sección (visualización de componentes)
+""")

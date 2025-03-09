@@ -403,3 +403,10 @@ st.write("#### :blue[Diseño de objeto con SmartArt y con software de CAD]")
 st.image("./img/A1-4.png", caption="Diseño Base realizado en Office", width=500)
 st.image("./img/A1-5.png", caption="Diseño realizado en MAYA (TOP)", width=500)
 st.image("./img/A1-6.png", caption="Diseño realizado en MAYA (HOME)", width=500)
+
+#----
+st.write("")
+st.write("#### :blue[Conclusión]")
+st.write("""
+Este fue mi primer acercamiento a un software de CAD, específicamente Autodesk Maya. Aprendí cosas como moverme en el espacio de trabajo, además de cómo mover, rotar y escalar una figura o un sólido.
+""")

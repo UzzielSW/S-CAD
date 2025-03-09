@@ -67,3 +67,12 @@ st.write("""Este circuito es un contador que solo puede mostrar los números del
 
 - El circuito está diseñado para cambiar su estado internamente de forma secuencial, representando cada estado con una combinación única de bits.""")
 st.image("./img/A4-4.png", caption="Circuito realizado en Tinkercad")
+
+#----
+st.write("")
+st.write("#### :blue[Conclusión]")
+st.markdown("""Durante el proceso pude aprender los siguientes conceptos y técnicas de diseño:
+- Nueva de manera de diseñar mediante el uso de componentes
+- Ensamblaje de cada componente para formar un diseño en conjunto. Ademas de agregarle el movimiento correcto a cada articulación de los brazos robóticos
+- Usar diferentes planos de construcción
+""")

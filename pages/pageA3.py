@@ -146,3 +146,21 @@ with col2:
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
 st.markdown('<iframe src="https://myup3745.autodesk360.com/shares/public/SH286ddQT78850c0d8a43fc204f856173d13?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>', unsafe_allow_html=True)
+
+#----
+st.write("")
+st.write("#### :blue[Conclusión]")
+st.markdown("""Durante el proceso pude aprender los siguientes conceptos y técnicas de diseño:
+- Constrains:
+    - Arcos Concéntricos
+    - Tangente
+- Funcion Spline
+- Funcion de Patrón (Circular)
+- Funcion Face Offset
+- Funcion Revolución
+- Funcion Mirror
+- Funcion Proyección
+- Aplicar colores y textura
+
+Ademas, en el proceso aprendi a utilizar fusion 360 y aplicar los conocimientos que ya tenia de diseño 3D en este software.
+""")

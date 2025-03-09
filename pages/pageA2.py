@@ -80,3 +80,24 @@ st.image("./img/A2-14.png", caption="Diseño en Shapr3D")
 st.write("")
 st.write("### :blue[Visualización del Diseño]")
 st.markdown('<iframe src="https://collaborate.shapr3d.com/v/VplQJwVNwTdaQhnx9ZALZ" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
+
+#----
+st.write("")
+st.write("#### :blue[Conclusión]")
+st.markdown("""Durante el proceso pude aprender los siguientes conceptos y técnicas de diseño:
+- Uso de la aplicación Shapr3D.
+- Moverme en el espacio y entender el sistema de coordenadas.
+- Configurar y ajustar las escalas y medidas para el diseño y el Grid (rejillas).
+- Conceptos básicos del diseño de los sketch:
+    - trabajar con figuras geométricas (líneas, círculos, rectángulos y polígonos)
+    - trabajar con líneas de construcción y cómo estas afectan el diseño
+    - trabajar con constraints (bloquear, aplicar restricciones a los puntos o figuras)
+- Conceptos básicos de diseño 3D:
+    - trabajar con extrusiones, empalmes, cortes y uniones
+    - trabajar con planos de construcción
+- Con estos conocimientos pude realizar el diseño del templo de Salta, Argentina. Aprendiendo en el proceso a agregar texto, cortar aristas, y trabajar con la geometría del diseño. También a utilizar las siguientes funciones:
+    - Usar Offset Edge (desfasar aristas)
+    - Usar Shell
+    - Realizar uniones
+    - Usar medidas
+""")
