@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.title("Asignación 2 - Religiones Alrededor del Mundo: Templos y Construcciones")
 
@@ -58,7 +59,7 @@ with col2:
     st.image("./img/A2-7.png")
     st.image("./img/A2-8.jpg")
     st.image("./img/A2-9.jpg")
-    
+
 #----
 st.write("")
 st.write("### :blue[Ubicación]")
@@ -79,7 +80,14 @@ st.image("./img/A2-14.png", caption="Diseño en Shapr3D")
 #----
 st.write("")
 st.write("### :blue[Visualización del Diseño]")
-st.markdown('<iframe src="https://collaborate.shapr3d.com/v/VplQJwVNwTdaQhnx9ZALZ" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
+components.iframe(
+    "https://collaborate.shapr3d.com/v/VplQJwVNwTdaQhnx9ZALZ",
+    width=640,
+    height=640,
+    scrolling=False,
+)
+st.caption("Si el visor no se carga, ábrelo en una nueva pestaña:")
+st.markdown("[Abrir en Shapr3D](https://collaborate.shapr3d.com/v/VplQJwVNwTdaQhnx9ZALZ)")
 
 #----
 st.write("")

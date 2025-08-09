@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.title("Asignación 3 - Monedas y Escudos")
 
@@ -19,7 +20,14 @@ with col2:
 #----
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
-st.markdown('<iframe src="https://collaborate.shapr3d.com/v/IRKX4sRhrjm1ZZpRnOp6J" title="Shapr3D Webviewer" width="640" height="440" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
+components.iframe(
+    "https://collaborate.shapr3d.com/v/IRKX4sRhrjm1ZZpRnOp6J",
+    width=640,
+    height=440,
+    scrolling=False,
+)
+st.caption("Si el visor no se carga, ábrelo en una nueva pestaña:")
+st.markdown("[Abrir en Shapr3D](https://collaborate.shapr3d.com/v/IRKX4sRhrjm1ZZpRnOp6J)")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -55,11 +63,18 @@ with col1:
 
 with col2:
     st.markdown("![Escudo de Aquiles](https://i.pinimg.com/736x/2d/a7/55/2da755ffa5e5fcaf2ab5ab026715426f.jpg)")
-    
+
 #----
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
-st.markdown('<iframe src="https://collaborate.shapr3d.com/v/8gPlC19U6MvYtC7rqiPz-" title="Shapr3D Webviewer" width="640" height="440" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
+components.iframe(
+    "https://collaborate.shapr3d.com/v/8gPlC19U6MvYtC7rqiPz-",
+    width=640,
+    height=440,
+    scrolling=False,
+)
+st.caption("Si el visor no se carga, ábrelo en una nueva pestaña:")
+st.markdown("[Abrir en Shapr3D](https://collaborate.shapr3d.com/v/8gPlC19U6MvYtC7rqiPz-)")
 
 #----
 st.write("")
@@ -75,7 +90,7 @@ with col1:
 
 with col2:
     st.image("https://www.worldhistory.org/img/r/p/1000x1200/8662.jpg.webp?v=1722621123", width=200, caption="Escudo de Juana de Arco")
-    
+
 #----
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
@@ -93,7 +108,7 @@ with col1:
 
 with col2:
     st.markdown("![Escudo de Golden State Warriors](https://1000marcas.net/wp-content/uploads/2020/02/logo-Golden-State-Warriors-500x281.png)")
-    
+
 #----
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
@@ -109,18 +124,25 @@ with col1:
     st.markdown("1. **La Cruz de San Jorge (Cruz roja sobre fondo blanco)**: Representa a Sant Jordi, patrón de Cataluña.")
     st.markdown("2. **Las barras rojas y amarillas (Senyera)**: Son las cuatro barras de la bandera catalana, simbolizando la identidad catalana del club.")
     st.markdown("3. **Los colores azul y grana**: Son los colores tradicionales del club, supuestamente inspirados en los del FC Basilea, aunque hay varias teorías sobre su origen.")
-    
+
 
 with col2:
     st.markdown("![Escudo de FC Barcelona](https://images3.alphacoders.com/601/thumb-1920-601283.jpg)")
     st.markdown("4. **El balón de fútbol**: Representa el deporte principal del club.")
     st.markdown("5. **Las iniciales FCB**: Football Club Barcelona.")
-    
+
 
 #----
 st.write("")
 st.write("### :blue[Visualización de Diseño]")
-st.markdown('<iframe src="https://collaborate.shapr3d.com/v/KHOCodmyXyMTcjpkku8AE" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>', unsafe_allow_html=True)
+components.iframe(
+    "https://collaborate.shapr3d.com/v/KHOCodmyXyMTcjpkku8AE",
+    width=640,
+    height=640,
+    scrolling=False,
+)
+st.caption("Si el visor no se carga, ábrelo en una nueva pestaña:")
+st.markdown("[Abrir en Shapr3D](https://collaborate.shapr3d.com/v/KHOCodmyXyMTcjpkku8AE)")
 
 #----
 st.write("")
@@ -136,8 +158,8 @@ with col1:
     st.markdown("- **Hard Work (trabajo duro)**: Trabajar fuerte y perseverar")
     st.markdown("- **Sacrifice (sacrificio)**: Sacrificar tiempo y energ a para lograr objetivos")
 
-    
-    
+
+
 with col2:
     st.image("./img/A3-1.png", caption="Escudo Personal")
     st.write("Mediante los segmentos verdes y morados se hace referencia a el uróboro (representa la unidad de todas las cosas materiales y espirituales, que no desaparecen nunca, sino que cambian de aspecto en un ciclo perpetuo de destrucción y creación)")
